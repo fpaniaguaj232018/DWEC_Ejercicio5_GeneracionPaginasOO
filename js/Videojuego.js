@@ -1,3 +1,6 @@
+/**
+ * Clase Videojuego
+ */
 class Videojuego {
     constructor(titulo, genero, numJugadores, edadMinima, imagen){
         this.titulo = titulo;

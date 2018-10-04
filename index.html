@@ -21,7 +21,9 @@
             videojuegos.push(new Videojuego("Super Mario Bross", "Plataformas", 1, 2, "https://vignette.wikia.nocookie.net/videojuego/images/e/e2/Super_Mario_Bros..jpg/revision/latest?cb=20080402052328"));
             videojuegos.push(new Videojuego("Fortnite", "FPS", 100, 12, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2fSAwCzCULt_9AxLYC4dfDFpFVQKX0HLLMgw7yZBtoQzoFTdG"));
         }
-
+        /**
+        Busca los elementos del array cuyo titulo contiene el titulo introducido por el usuario.
+        */
         function buscarPorTitulo() {
             var encontrado = false;
             var textoABuscar = document.getElementById("titulo").value.trim();
